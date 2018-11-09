@@ -1,11 +1,6 @@
 language: python
-sudo: enabled
+sudo: true
 python:
   - "3.6"
 cache: pip
 install: pip install -r requirements.txt
-#before_script:
-#  - easy_install distribute
-#  - pip install -r requirements.txt
-#script:
-#  - python tests.py
