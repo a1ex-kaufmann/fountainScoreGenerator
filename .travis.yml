@@ -4,3 +4,5 @@ python:
   - "3.6"
 cache: pip
 install: pip install requirements.txt
+after_success:
+  - codecov
