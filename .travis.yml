@@ -2,8 +2,8 @@ language: python
 sudo: false
 python:
   - 3.6
-install:
-  - pip install codecov
-  - pip install coverage
-after_success:
-  - codecov
+#install:
+#  - pip install codecov
+#  - pip install coverage
+#after_success:
+#  - codecov
