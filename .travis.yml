@@ -1,11 +1,15 @@
+sudo: false
+
 language: python
+
 python:
-  - "3.6"
-  # PyPy versions
-  - "pypy3.5"
-# command to install dependencies
+  - 3.6
+
 install:
-  - pip install -r requirements.txt
-  - pip install .
-# command to run tests
-script: pytest
+  - pip install codecov
+
+script:
+  - coverage run tests.py
+
+after_success:
+  - codecov
