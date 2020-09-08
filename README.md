@@ -1,6 +1,8 @@
 # FountainScoreGenerator
 Creates a score for the fountain Aurora  (Krasnodar) by mp3 file
 
+Преобразует mp3-музыку в партитуру для фонтана Аврора, Краснодар
+
 [![Build Status](https://travis-ci.com/ZhdanoffAlexey/FountainScoreGenerator.svg?branch=master)](https://travis-ci.com/ZhdanoffAlexey/FountainScoreGenerator)
 [![GitHub release](https://img.shields.io/github/release/ZhdanoffAlexey/FountainScoreGenerator.svg)](https://github.com/ZhdanoffAlexey/FountainScoreGenerator/releases)
 [![codecov](https://codecov.io/gh/ZhdanoffAlexey/FountainScoreGenerator/branch/master/graph/badge.svg)](https://codecov.io/gh/ZhdanoffAlexey/FountainScoreGenerator)
